@@ -1,0 +1,29 @@
+h1 {
+	color:blue
+}
+
+h2 {
+	color:red
+}
+
+p {
+	color:green
+}
+
+th {
+	background-color: grey;
+}
+
+.albumTable {
+	width: 100%;
+	border: solid 1px;
+}
+
+td {
+    text-align: center;
+}
+
+/* This is more specific than td {} above */
+#table2 td {
+    text-align: left;
+}
