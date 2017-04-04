@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.linkText {
+			font-family: arial;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		<!--http://www.inmotionhosting.com/support/edu/website-design/using-css/linking-your-css-to-your-website-->
+	</style>
+	
+	<!-- External stylesheet import -->
+	<link rel="stylesheet" type="text/css" href="Album Styles.css">
+</head>
+<body>
+	<center>
+		<img src="http://ecx.images-amazon.com/images/I/51CBSDCWK4L.jpg">
+	</center>
+	<center>
+		<title>Chulahoma</title>
+	</center>
+	<div>
+		<center>
+			<h1>Chulahoma</h1>
+		</center>
+	</div>
+	<div>
+		<center>
+			<a href="https://theblackkeys.com" class="linkText" /><center>The Black Keys</center></a>
+		</center>
+	</div>
+	<div>
+		<center>
+		<h3>May 2, 2006</h3>
+		</center>
+		<hr>
+		</hr>
+	</div>
+	<div>
+		<center>
+			<h2>Band Members and Producers</h2>
+		</center>
+		<ul style="list-style-type: disc;">
+			<li>Dan Auerbach - Guitar/Vocals</li>
+			<li>Patrick Carney - Drums</li>
+		</ul>
+	</div>
+	<div>
+		<!--
+		First table tag is using inline styling (style attribute)
+		Second table tag is using internal styling (style tag in header, and subsequent use of class attribute
+		-->
+		<!--<table style="border:solid 10px;width:100%">-->
+		<table id="table1" class="albumTable">
+			<caption>Tracks</caption>
+			<tr>
+				<th>Track #</th>
+				<th>Track Title</th>
+				<th>Track Length</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Keep Your Hands Off Her</td>
+				<td>3:06</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Have Mercy on Me</td>
+				<td>4:42</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Work Me</td>
+				<td>4:15</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Meet Me in the City</td>
+				<td>3:38</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Nobody but You</td>
+				<td>5:21</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>My Mind Is Ramblin' (reprise*)</td>
+				<td>6:45</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>"Junior's Widow"</td>
+				<td>:32</td>
+			</tr>
+		</table>
+		
+		<table id="table2" class="albumTable">
+			<caption>Tracks</caption>
+			<tr>
+				<th>Track #</th>
+				<th>Track Title</th>
+				<th>Track Length</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Keep Your Hands Off Her</td>
+				<td>3:06</td>
+			</tr>
+			<!-- This is the most specific that you can get.
+			This is overriding the td {} CSS in Album Styles.css file we're importing above
+			This is overriding the #table2 td {} CSS in Album Styles.css file we're importing above
+			<tr>
+				<td style="text-align: center">2</td>
+				<td style="text-align: center">Have Mercy on Me</td>
+				<td style="text-align: center">4:42</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Work Me</td>
+				<td>4:15</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Meet Me in the City</td>
+				<td>3:38</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Nobody but You</td>
+				<td>5:21</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>My Mind Is Ramblin' (reprise*)</td>
+				<td>6:45</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>"Junior's Widow"</td>
+				<td>:32</td>
+			</tr>
+		</table>
+	</div>
+	</body>
+</html>
