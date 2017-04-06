@@ -2,20 +2,26 @@
 <html>
     <head>
         <title>Carfagna's Restaurant</title>
+        <style>
+		body {
+			background-color:red;
+		}
+	    </style>
     </head>
     <header>
         <h1 align="center">Carfagna's Restaurant</h1>
+        <link rel="stylesheet" type="text/css" href="RestaurantStyles.css" />
     </header>
     <hr></hr>
     <body>
-    <a href=""/>Home</a>
-    <a href=""/>Menu</a>
-    <a href=""/>Contact Us</a>
+        <a href="RestaurantSiteV1.html"/>Home</a>
+        <a href="RestaurantSiteV1Menu"/>Menu</a>
+        <a href="RestaurantSiteV1ContactUs"/>Contact Us</a>
     <hr></hr><br/>
-    <center>
-    <form action="ContactUs.html" name="myTextInput" /><br/>
+        <center>
+        <form action="ContactUs.html" name="myTextInput" /><br/>
         <p>
-            Name: <input type="text" name="myTextInput" /><br/>
+            <b>Name:<b> <input type="text" name="myTextInput" /><br/>
         </p>
         <p>
             Email: <input type="text" name="myTextInput" /><br/>
@@ -30,15 +36,15 @@
                 <option value="Feedback">Feedback</option>
                 <option value="Other">Other</option>
                 </select><br/>
-        </p>
-        <p>
+         </p>
+         <p>
             Additional Information: <textarea name="briefdescription"></textarea><br/>
-        </p>
-        <p>
+         </p>
+         <p>
             Have you been to this restaurant?
             <input type="radio" name="answer" value="no" checked/>No
             <input type="radio" name="answer" value="yes" />Yes
-        </p>
+         </p>
         <p>
             Best days to contact you:
             <input type="checkbox" name="days" value="M"/>M
@@ -53,10 +59,10 @@
 
     </form>
     </center>
-    <hr></hr>
-    <footer>
-        <p align="center">2025 Polaris Parkway, Columbus OH 43240-2000</p>
-        <p align="center">614-848-4488</p>
-        </footer>
+        <hr></hr><br/>
+    <footer style="text-align: center;">
+        <p>2025 Polaris Parkway, Columbus OH 43240-2000</p>
+        <p>614-848-4488</p>
+    </footer>
     </body>
 </html>
