@@ -27,6 +27,8 @@ th {
 
 td {
     text-align: center;
+	font-style: italic;
+	background-color: tan;
 }
 
 /* This is more specific than td {} above */
@@ -36,4 +38,11 @@ td {
 
 a {
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-decoration: none;
+	color: red
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: green;
 }
