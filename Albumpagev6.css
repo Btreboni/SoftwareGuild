@@ -1,0 +1,53 @@
+h1 {
+	color:red;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+	color:red;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+	color:red;
+}
+
+p {
+	color:green;
+}
+
+th {
+    text-align: center;
+	background-color: grey;
+}
+
+.albumTable {
+	width: 100%;
+	border: solid 1px;
+}
+
+td {
+    text-align: center;
+	font-style: italic;
+	background-color: tan;
+}
+
+/* This is more specific than td {} above */
+/*#table2 td {
+    text-align: left;
+}*/
+
+a {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: green;
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+}
