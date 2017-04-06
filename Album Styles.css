@@ -1,13 +1,19 @@
 h1 {
-	color:blue
+	color:red;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h2 {
-	color:red
+	color:red;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+	color:red;
 }
 
 p {
-	color:green
+	color:green;
 }
 
 th {
@@ -26,4 +32,8 @@ td {
 /* This is more specific than td {} above */
 #table2 td {
     text-align: left;
+}
+
+a {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
