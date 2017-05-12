@@ -24,12 +24,12 @@ th {
 .albumTable {
 	width: 100%;
 	border: solid 1px;
+	
 }
 
 td {
     text-align: center;
 	font-style: italic;
-	background-color: tan;
 }
 
 /* This is more specific than td {} above */
@@ -48,6 +48,18 @@ a:hover {
 	color: green;
 }
 
-tr:nth-child(even) {
+tbody tr:nth-child(even) {
     background-color: grey;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+#table1 {
+
+}
+
+.changedColor {
+	background-color: red;
 }
