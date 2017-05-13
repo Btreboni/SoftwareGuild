@@ -27,7 +27,7 @@ public class RollerCoaster {
         System.out.println("We're going to go on a roller coaster...");
         System.out.println("Let me know when you want to get off...!");
 
-        String keepRiding = "y";
+        String keepRiding = "n";
         int loopsLooped = 0;
         while (keepRiding.equals("y")) {
             System.out.println("WHEEEEEEEEEEEEEeEeEEEEeEeeee.....!!!");
